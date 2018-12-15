@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "release": "np --any-branch --no-publish --yolo",
-    "release2": "release-it"
+    "release2": "release-it",
+    "getBranch":"git rev-parse --abbrev-ref HEAD"
   },
   "repository": {
     "type": "git",
