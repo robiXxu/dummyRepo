@@ -1,0 +1,30 @@
+{
+  "git": {
+    "requireUpstream": true,
+    "addUntrackedFiles": false,
+    "commit": false,
+    "commitMessage": "Release ${version}",
+    "commitArgs": "",
+    "tag": true,
+    "tagName": "${version}",
+    "tagAnnotation": "Release ${version}",
+    "tagArgs": "",
+    "push": true,
+    "pushArgs": "",
+    "pushRepo": "origin"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "prompt": {
+    "commit": false,
+    "tag": true,
+    "push": true,
+    "release": true,
+    "publish": false
+  }
+
+}
