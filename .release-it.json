@@ -1,9 +1,20 @@
 {
+  "increment": null,
+  "preReleaseId": null,
+  "pkgFiles": ["package.json"],
+  "scripts": {
+    "beforeStart": null,
+    "beforeBump": null,
+    "afterBump": null,
+    "beforeStage": null,
+    "changelog": null,
+    "afterRelease": "echo Successfully released ${name} v${version} to ${repo.repository}."
+  },
   "git": {
     "requireUpstream": true,
     "addUntrackedFiles": false,
-    "commit": false,
-    "commitMessage": "Release ${version}",
+    "commit": true,
+    "commitMessage": "Release ${git rev-parse --abbrev-ref HEAD}",
     "commitArgs": "",
     "tag": true,
     "tagName": "${version}",
