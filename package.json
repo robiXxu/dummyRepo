@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lol nope",
-    "release": "np --any-branch --no-publish"
+    "release": "np --any-branch --no-publish --yolo "
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,8 @@
     "url": "https://github.com/robiXxu/dummyRepo/issues"
   },
   "homepage": "https://github.com/robiXxu/dummyRepo#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "np": "^3.1.0"
   }
 }
