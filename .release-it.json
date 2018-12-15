@@ -7,7 +7,7 @@
     "beforeBump": null,
     "afterBump": null,
     "beforeStage": null,
-    "changelog": null,
+    "changelog": "",
     "afterRelease": "echo Successfully released ${name} v${version} to ${repo.repository}."
   },
   "git": {
